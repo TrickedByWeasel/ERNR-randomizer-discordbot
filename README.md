@@ -1,6 +1,6 @@
 # ERNR-randomizer-discordbot
 
-A Discord bot for generating random boss and class assignments for **Elden Ring: Night Reign**.
+A Discord bot for generating random boss and class assignments for **Elden Ring: Nightreign**.
 
 ---
 
