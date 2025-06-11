@@ -18,7 +18,7 @@ A Discord bot for generating random boss and class assignments for **Elden Ring:
 
 Type `§` in the specified channel to get a random boss and three random classes.
 
-![image](images/example1.png)
+![image](images/example_1.png)
 
 ### 2. Custom Player Names
 
@@ -33,7 +33,7 @@ Change the default `p1`, `p2`, or `p3` names to your own by typing:
 
 After setting a name, the next randomizer output will display your custom name.
 
-![image](images/example2.png)
+![image](images/example_2.png)
 ---
 
 ## How to get started
