@@ -1,27 +1,39 @@
 # ERNR-randomizer-discordbot
-Discord bot for getting random classes and boss for Elden Ring Night Reign
 
-To use the bot, type "§" in the selected channel and bot will give you random boss and classes, for example:
-ERNR randomizer:
-Darkdrift Knight
-       VS.
-p1: Wylder
-p2: Ironeye
-p3: Raider
+A Discord bot for generating random boss and class assignments for **Elden Ring: Night Reign**.
 
-type §p1, §p2, or §p3 and name to change the default p1, p2, p3 values to your custom names, for example, 
+---
+
+## Features
+
+- **Random Boss & Classes:** Generates a random boss and three random classes for players.
+- **Custom Player Names:** Allows users to set custom player names using simple commands.
+- **Easy to Use:** Just type a command in the designated channel!
+
+---
+
+## Usage
+
+### 1. Random Boss & Classes
+
+Type `§` in the specified channel to get a random boss and three random classes.
+
+![image](images/example1.png)
+
+### 2. Custom Player Names
+
+Change the default `p1`, `p2`, or `p3` names to your own by typing:
+
+§p1 [Name]
+§p2 [Name]
+§p3 [Name]
+
+**Example:**
 §p2 Dave
-would change the p2 to Dave
 
-§p2 Dave
-§
-ERNR randomizer:
-Tricephalos
-       VS.
-p1: Guardian
-Dave: Revenant
-p3: Duchess
+After setting a name, the next randomizer output will display your custom name.
 
+![image](images/example2.png)
 ---
 
 ## How to get started
