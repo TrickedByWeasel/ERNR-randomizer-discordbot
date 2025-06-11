@@ -1,45 +1,87 @@
 # ERNR-randomizer-discordbot
-Discordbot for getting random classes and boss for Elden Ring Night Reign
+Discord bot for getting random classes and boss for Elden Ring Night Reign
 
-**How to get started**:
+---
 
-  1.Install Python and discord.py.
-    https://www.python.org/downloads/release/python-3100/
-    You can select, for example, the Windows installer (64-Bit) if that matches your system, download it, run the installer and follow the instructions there.
-    Make sure you know the path to your python.exe to use it in command line later (/PATH/TO/YOUR/python.exe).
+## How to get started
 
-  2.Clone this repository.
+1. **Install Python and discord.py**
+   - Download Python 3.10: [Python 3.10 download page](https://www.python.org/downloads/release/python-3100/)
+   - Run the installer and follow the instructions.
+   - Make sure you know the path to your `python.exe` (for example, `C:\Python310\python.exe`).
+
+2. **Clone this repository**
+  git clone https://github.com/yourusername/ERN-randomizer-discordbot.git
     
-  3.Install dependencies from requirements.txt.
-    or just in command line /PATH/TO/YOUR/python.exe -m pip install discord 
+  3. **Install dependencies**
+- Open a terminal or command prompt.
+- Navigate to the repository folder:
+  ```
+  cd ERNR-randomizer-discordbot
+  ```
+- Install the required package:
+  ```
+  pip install -r requirements.txt
+  ```
+  - Or, if you only want to install discord.py:
+    ```
+    pip install discord.py
+    ```
 
-**How to get a Discord bot token and enable intents**:
-  log in to https://discord.com/developers/
-    New Application
-      Give it a name like "ERNR randomizer" and create
-      From the left side of the page, open the "Bot" page
-        You can set the bot public and set the "Message content intent" True
-        ![image](https://github.com/user-attachments/assets/9ff73244-6b2e-4b48-aec3-a7dcfdb80452)
-        Get the TOKEN from Bot page as well, by pressing the Reset Token -button. 
-        **You need to add the TOKEN  to the randomiser_bot.py line 4** (change the DISCORD TOKEN to match your token):
-        TOKEN = "DISCORD TOKEN"  # TODO Set your discord token here
-        ![image](https://github.com/user-attachments/assets/58539c28-8988-4271-9e3e-786211fd4075)
+## How to get a Discord bot token and enable intents
 
-        Save changes
+1. **Go to [Discord Developer Portal](https://discord.com/developers/)**
+2. **Create a new application**
+- Click "New Application"
+- Name it (e.g., "ERNR randomizer") and create
+3. **Open the "Bot" page**
+- Set the bot to public
+- Enable "Message Content Intent"
+- Click "Reset Token" and copy the token
+- **Never share your token publicly!**
+4. **Add the token to your bot code**
+- Open `randomiser_bot.py`
+- Replace `TOKEN = "DISCORD TOKEN"` with your actual token:
+  ```
+  TOKEN = "your-token-here"  # Replace with your Discord bot token
+  ```
+- Save the file
 
-**How to get a channel ID**:
+---
 
-  In your Discord settings, go to the "Advanced" page at the bottom of the settings list and enable the Developer mode.
-  After that, you can right click a channel in you Discord server and see the "Copy channel ID" at the bottom. 
-  **You need to add the channel ID  to the randomiser_bot.py line 5** (change the 1234567890 to match the channel ID):
-        CHANNEL_ID = 1234567890  # TODO Set your discord channel ID here
+## How to get a channel ID
 
-**How to run the bot**:
+1. **Enable Developer Mode in Discord**
+- Go to Discord settings > Advanced > Enable Developer Mode
+2. **Copy the channel ID**
+- Right-click the channel in your Discord server
+- Select "Copy Channel ID"
+3. **Add the channel ID to your bot code**
+- Open `randomiser_bot.py`
+- Replace `CHANNEL_ID = 1234567890` with your actual channel ID:
+  ```
+  CHANNEL_ID = 1234567890  # Replace with your Discord channel ID
+  ```
+- Save the file
 
-  After that, you can run the bot from command line with: /PATH/TO/YOUR/python.exe randomiser_bot.py
+---
 
-**How to invite the bot to a server**:
-  In discord.com/developers/ select your application and from the left side of the page open the OAuth2 page. 
-  Under OAuth2 URL Generator select the bot
-  ![image](https://github.com/user-attachments/assets/551dfbd5-014b-4cea-aeea-c263a14600c4)
-  Under BOT PERMISSIONS select Send Messages and Manage Messages, then you can see the generated URL at the bottom of the page. Copy it and paste it into your browser, open the page, and select the server you want to add the bot to. 
+## How to run the bot
+
+1. **Open a terminal or command prompt**
+2. **Navigate to the repository folder**
+3. **Run the bot**
+
+---
+
+## How to invite the bot to a server
+
+1. **Go to [Discord Developer Portal](https://discord.com/developers/)**
+2. **Select your application**
+3. **Open the OAuth2 page**
+4. **Under OAuth2 URL Generator, select "bot"**
+5. **Under Bot Permissions, select "Send Messages" and "Manage Messages"**
+6. **Copy the generated URL and open it in your browser**
+7. **Select the server you want to add the bot to**
+
+---
