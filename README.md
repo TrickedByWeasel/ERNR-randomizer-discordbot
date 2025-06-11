@@ -3,7 +3,6 @@ Discord bot for getting random classes and boss for Elden Ring Night Reign
 
 To use the bot, type "§" in the selected channel and bot will give you random boss and classes, for example:
 ERNR randomizer:
--------------
 Darkdrift Knight
        VS.
 p1: Wylder
@@ -17,7 +16,6 @@ would change the p2 to Dave
 §p2 Dave
 §
 ERNR randomizer:
--------------
 Tricephalos
        VS.
 p1: Guardian
