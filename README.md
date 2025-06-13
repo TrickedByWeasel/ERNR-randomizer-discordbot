@@ -6,7 +6,7 @@ A Discord bot for generating random boss and class assignments for **Elden Ring:
 
 ## Features
 
-- **Random Boss & Classes:** Generates a random boss and three random classes for players.
+- **Random Boss & Classes:** Generates a random boss and three random classes for players. If you want to allow duplicate classes, set ALLOW_SAME_CLASS = True in randomiser_bot.py.
 - **Custom Player Names:** Allows users to set custom player names using simple commands.
 - **Easy to Use:** Just type a command in the designated channel!
 
@@ -34,6 +34,12 @@ Change the default `p1`, `p2`, or `p3` names to your own by typing:
 After setting a name, the next randomizer output will display your custom name.
 
 ![image](images/example_2.png)
+
+### 3. Remove classes from players
+
+If player has completed remembrance or doesn't own Duchess or Revenant, classes can be removed from them:
+Type `§p1r [classname]` to "player 1 remove [classname]".
+
 ---
 
 ## How to get started
